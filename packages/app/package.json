@@ -1,0 +1,29 @@
+{
+  "name": "@clean-auth/app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon",
+    "prod": "cross-env NODE_ENV=production nodemon",
+    "build": "tsc && tsc-alias",
+    "serve": "node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.8",
+    "@types/koa__cors": "^4.0.0",
+    "@types/node": "^20.5.7",
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@clean-auth/core": "workspace:^",
+    "@clean-auth/mem-db": "workspace:^",
+    "@clean-auth/utils": "workspace:^",
+    "@koa/cors": "^4.0.0",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-swagger-decorator": "^1.8.6"
+  }
+}
