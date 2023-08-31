@@ -12,8 +12,7 @@
 `packages/utils` 包含一些辅助函数和工具，例如日志记录器（logger）和配置（config）等。
  
 
-<!-- [API文档](./doc.html) -->
-<a href="./doc.pdf" download>API文档</a>
+### API文档可查看 `./apiDoc.html`文件
 ## 开始运行
 
 安装 要求本地node>16并安装pnpm
